@@ -64,11 +64,3 @@ void ofApp::draw() {
 			ofEndShape(true);
 		}
 	}
-}
-
-//--------------------------------------------------------------
-int main() {
-
-	ofSetupOpenGL(720, 720, OF_WINDOW);
-	ofRunApp(new ofApp());
-}
